@@ -19,7 +19,6 @@ cd pki-example-1
 Step 2: Create Root CA directory holds CA resources, CRLs directory and certs directory holds user certificates. And create database.
 
 mkdir -p ca/root-ca/private ca/root-ca/db crl certs
-
 chmod 700 ca/root-ca/private
 
 cp /dev/null ca/root-ca/db/root-ca.db
